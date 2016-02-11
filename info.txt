@@ -1,0 +1,21 @@
+//state =url+view+controller 
+//state must be registered in app.config 
+//state views fill the UI view directive 
+//ui-sref is a directive that creates links from sttaes by name
+//$state.go is a method that can trigger transition to a state
+//$stateparams 
+
+
+//need to config state
+//$stateprovider -- can only been injected in .config 
+//$state is the postconfig name that goes in controller 
+//if no controller listedm, will inherit from controller above it  
+//does not replace the html but appends it w/ various views
+
+//use ui-sref to refer to states by names in html 
+
+//each state has a controller 
+//state.go lets you go from one state to next 
+
+//ui router has a cache, so if you go back and back then go forward
+//it will serve the data else it will make a request 
